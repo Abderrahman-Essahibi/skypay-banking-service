@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>Skypay</groupId>
-    <artifactId>skypayh_technical_test</artifactId>
+    <artifactId>SkypayBankingService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>skypayh_technical_test</name>
     <description>skypayh_technical_test</description>
@@ -51,6 +51,20 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+            <!-- JUnit 5 -->
+        <dependency>
+            <groupId>org.junit</groupId>
+            <artifactId>junit-bom</artifactId>
+            <version>5.10.0</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

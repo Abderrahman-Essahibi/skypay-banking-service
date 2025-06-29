@@ -1,12 +1,12 @@
-package skypay.skypayh_technical_test;
+package skypay.SkypayBankingService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SkypayBankingService {
+public class SkypayBankingServiceApplication {
 
-    public static void main(String[] args) { SpringApplication.run(SkypayBankingService.class, args);
+    public static void main(String[] args) { SpringApplication.run(SkypayBankingServiceApplication.class, args);
         Account account = new Account();
 
         account.addTransaction("10-01-2012", 1000);
