@@ -49,7 +49,7 @@ mvn test
 If you included a `Main.java` for CLI input:
 
 ```bash
-mvn compile exec:java -Dexec.mainClass="skypay.skypayh_technical_test.Main"
+mvn compile exec:java -Dexec.mainClass="skypay.SkypayBankingService.Main"
 ```
 
 > Or just run `Main` directly from IntelliJ.
