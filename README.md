@@ -14,7 +14,7 @@ The goal was to follow strict interface constraints, apply clean code practices,
 * **Java 17**
 * **Maven**
 * **JUnit 4**
-* (Optional) **Spring Boot** used only for project structure
+* **Spring Boot** 
 
 ## Project Structure
 
